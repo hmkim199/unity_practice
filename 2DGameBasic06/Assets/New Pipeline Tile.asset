@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25192638efa881c469b1ac4d8cfd3f1b, type: 3}
+  m_Name: New Pipeline Tile
+  m_EditorClassIdentifier: 
+  m_Sprites:
+  - {fileID: 21300000, guid: 8d6d9501df8395842bf906e857e3a1de, type: 3}
+  - {fileID: 21300000, guid: 0b38337e12c764443b5b9454968f78f6, type: 3}
+  - {fileID: 21300000, guid: 649573fce7d7d0c4c83bbb8d316f02de, type: 3}
+  - {fileID: 21300000, guid: f08c09ae510d8f84bb21c44645e3dded, type: 3}
+  - {fileID: 21300000, guid: 39603af05256aeb42bf79310299af690, type: 3}
