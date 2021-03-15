@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour {
     // 바닥에 닿았음을 감지하는 처리
     private void OnCollisionEnter2D(Collision2D collision) {
         // 어떤 콜라이더와 닿았으며, 충돌 표면이 위쪽을 보고 있으면(절벽 등 아닌 일반 땅이면)
-        if (collision.contacts[0].normal.y > 0.7f) {
+        if (collision.contacts[0].normal.y > 0.7f) { // collision.contacts[0] => 두 물체 사이의 여러 충돌 지점 중에서 첫 번째 충돌 지점의 정보
             // isGrounded를 true로 변경하고, 누적 점프 횟수를 0으로 리셋
             isGrounded = true;
             jumpCount = 0;
